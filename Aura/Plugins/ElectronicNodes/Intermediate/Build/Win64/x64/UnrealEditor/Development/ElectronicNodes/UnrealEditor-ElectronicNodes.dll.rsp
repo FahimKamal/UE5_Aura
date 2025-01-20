@@ -37,15 +37,9 @@
 /FUNCTIONPADMIN:6
 /NOIMPLIB
 /NATVIS:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderCore\RenderCore.natvis"
-"X:\Unreal Projects1\Plugin 5.5\Intermediate\Build\Win64\x64\PluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
-"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Module.ElectronicNodes.cpp.obj"
-"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\ElectronicNodes.cpp.obj"
-"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\ENConnectionDrawingPolicy.cpp.obj"
-"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\ENPathDrawer.cpp.obj"
-"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\NodeFactoryPatch.cpp.obj"
-"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\ENUpdatePopup.cpp.obj"
-"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\ENWardenPopup.cpp.obj"
-"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Default.rc2.res"
+"D:\Unreal_Projects\UE5_Aura\Aura\Intermediate\Build\Win64\x64\AuraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Module.ElectronicNodes.cpp.obj"
+"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\UnrealEditor-Slate.lib"
@@ -91,6 +85,6 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Binaries\Win64\UnrealEditor-ElectronicNodes.dll"
-/PDB:"X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Binaries\Win64\UnrealEditor-ElectronicNodes.pdb"
+/OUT:"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Binaries\Win64\UnrealEditor-ElectronicNodes.dll"
+/PDB:"D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Binaries\Win64\UnrealEditor-ElectronicNodes.pdb"
 /ignore:4078

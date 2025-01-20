@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DARKERNODES_DarkerNodesSettings_generated_h
 
-#define FID_Unreal_Projects1_Plugin_5_5_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_103_INCLASS_NO_PURE_DECLS \
+#define FID_Aura_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_103_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDarkerNodesSettings(); \
 	friend struct Z_Construct_UClass_UDarkerNodesSettings_Statics; \
@@ -25,7 +25,7 @@ public: \
 
 
 
-#define FID_Unreal_Projects1_Plugin_5_5_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_103_ENHANCED_CONSTRUCTORS \
+#define FID_Aura_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_103_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UDarkerNodesSettings(UDarkerNodesSettings&&); \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~UDarkerNodesSettings();
 
 
-#define FID_Unreal_Projects1_Plugin_5_5_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_100_PROLOG
-#define FID_Unreal_Projects1_Plugin_5_5_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_103_GENERATED_BODY \
+#define FID_Aura_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_100_PROLOG
+#define FID_Aura_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_103_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_Projects1_Plugin_5_5_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_103_INCLASS_NO_PURE_DECLS \
-	FID_Unreal_Projects1_Plugin_5_5_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_103_ENHANCED_CONSTRUCTORS \
+	FID_Aura_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_103_INCLASS_NO_PURE_DECLS \
+	FID_Aura_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h_103_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +50,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> DARKERNODES_API UClass* StaticClass<class UDarkerNodesSettings>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Unreal_Projects1_Plugin_5_5_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h
+#define CURRENT_FILE_ID FID_Aura_Plugins_DarkerNodes_Source_DarkerNodes_Public_DarkerNodesSettings_h
 
 
 #define FOREACH_ENUM_EPRESETS(op) \

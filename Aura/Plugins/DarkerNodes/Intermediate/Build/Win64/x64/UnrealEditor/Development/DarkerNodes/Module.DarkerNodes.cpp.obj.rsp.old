@@ -1,11 +1,13 @@
-"X:\Unreal Projects1\Plugin\Plugins\DarkerNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\DarkerNodes\Module.DarkerNodes.cpp"
-/FI"X:\Unreal Projects1\Plugin\Intermediate\Build\Win64\x64\PluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
-/FI"X:\Unreal Projects1\Plugin\Plugins\DarkerNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\DarkerNodes\Definitions.DarkerNodes.h"
-/Yu"X:\Unreal Projects1\Plugin\Intermediate\Build\Win64\x64\PluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
-/Fp"X:\Unreal Projects1\Plugin\Intermediate\Build\Win64\x64\PluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.pch"
-/Fo"X:\Unreal Projects1\Plugin\Plugins\DarkerNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\DarkerNodes\Module.DarkerNodes.cpp.obj"
-/sourceDependencies "X:\Unreal Projects1\Plugin\Plugins\DarkerNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\DarkerNodes\Module.DarkerNodes.cpp.dep.json"
-@"X:\Unreal Projects1\Plugin\Plugins\DarkerNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\DarkerNodes\DarkerNodes.Shared.rsp"
+"X:\Unreal Projects1\Plugin 5.5\Plugins\DarkerNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\DarkerNodes\Module.DarkerNodes.cpp"
+/FI"X:\Unreal Projects1\Plugin 5.5\Intermediate\Build\Win64\x64\PluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/FI"X:\Unreal Projects1\Plugin 5.5\Plugins\DarkerNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\DarkerNodes\Definitions.DarkerNodes.h"
+/Yu"X:\Unreal Projects1\Plugin 5.5\Intermediate\Build\Win64\x64\PluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h"
+/Fp"X:\Unreal Projects1\Plugin 5.5\Intermediate\Build\Win64\x64\PluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.pch"
+/Fo"X:\Unreal Projects1\Plugin 5.5\Plugins\DarkerNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\DarkerNodes\Module.DarkerNodes.cpp.obj"
+/experimental:log "X:\Unreal Projects1\Plugin 5.5\Plugins\DarkerNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\DarkerNodes\Module.DarkerNodes.cpp.sarif"
+/sourceDependencies "X:\Unreal Projects1\Plugin 5.5\Plugins\DarkerNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\DarkerNodes\Module.DarkerNodes.cpp.dep.json"
+@"X:\Unreal Projects1\Plugin 5.5\Plugins\DarkerNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\DarkerNodes\DarkerNodes.Shared.rsp"
+/d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi

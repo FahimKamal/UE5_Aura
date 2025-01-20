@@ -81,7 +81,7 @@
 /DUE_BUILD_DEVELOPMENT=1
 /DORIGINAL_FILE_NAME="UnrealEditor-ElectronicNodes.dll"
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
-/DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
-/DPROJECT_PRODUCT_IDENTIFIER=Plugin
-/fo "X:\Unreal Projects1\Plugin 5.5\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Default.rc2.res"
+/DPROJECT_COPYRIGHT_STRING="Copyright by FK"
+/DPROJECT_PRODUCT_IDENTIFIER=Aura
+/fo "D:\Unreal_Projects\UE5_Aura\Aura\Plugins\ElectronicNodes\Intermediate\Build\Win64\x64\UnrealEditor\Development\ElectronicNodes\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
