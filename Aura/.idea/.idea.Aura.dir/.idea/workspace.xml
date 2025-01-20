@@ -9,32 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd2cdad-3604-4b7a-b6d0-2eaf9b081815" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Characters/Aura/SKM_Aura.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Characters/Aura/SKM_Aura.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Characters/Aura/SK_Aura.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Characters/Aura/SK_Aura.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/SKM_Goblin.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/SKM_Goblin.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/SK_Goblin.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/SK_Goblin.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes-Win64-DebugGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes-Win64-DebugGame.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes-Win64-DebugGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes-Win64-DebugGame.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/LiveCodingInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/LiveCodingInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/Module.DarkerNodes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/Module.DarkerNodes.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/Module.DarkerNodes.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/Module.DarkerNodes.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/Module.DarkerNodes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/Module.DarkerNodes.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/UnrealEditor-DarkerNodes-Win64-DebugGame.dll.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/UnrealEditor-DarkerNodes-Win64-DebugGame.dll.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/UnrealEditor-DarkerNodes-Win64-DebugGame.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/UnrealEditor-DarkerNodes-Win64-DebugGame.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/UnrealEditor-DarkerNodes-Win64-DebugGame.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/UnrealEditor-DarkerNodes-Win64-DebugGame.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/UnrealEditor-DarkerNodes-Win64-DebugGame.lib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/DarkerNodes/UnrealEditor-DarkerNodes-Win64-DebugGame.lib.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes-Win64-DebugGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes-Win64-DebugGame.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes-Win64-DebugGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes-Win64-DebugGame.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/LiveCodingInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/LiveCodingInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/Module.ElectronicNodes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/Module.ElectronicNodes.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/Module.ElectronicNodes.cpp.dep.json" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/Module.ElectronicNodes.cpp.dep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/Module.ElectronicNodes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/Module.ElectronicNodes.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/UnrealEditor-ElectronicNodes-Win64-DebugGame.dll.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/UnrealEditor-ElectronicNodes-Win64-DebugGame.dll.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/UnrealEditor-ElectronicNodes-Win64-DebugGame.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/UnrealEditor-ElectronicNodes-Win64-DebugGame.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/UnrealEditor-ElectronicNodes-Win64-DebugGame.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/UnrealEditor-ElectronicNodes-Win64-DebugGame.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/UnrealEditor-ElectronicNodes-Win64-DebugGame.lib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/ElectronicNodes/UnrealEditor-ElectronicNodes-Win64-DebugGame.lib.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AuraCharacterBase.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AuraCharacterBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,22 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Uproject.Aura.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Uproject.Aura.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Aura" type="Uproject" factoryName="rider.uproject">
       <configuration_1 setup="1">
@@ -168,7 +143,8 @@
       <option name="presentableId" value="Default" />
       <updated>1737354033003</updated>
       <workItem from="1737354035213" duration="895000" />
-      <workItem from="1737354972248" duration="2490000" />
+      <workItem from="1737354972248" duration="3894000" />
+      <workItem from="1737364930943" duration="352000" />
     </task>
     <servers />
   </component>
