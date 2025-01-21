@@ -6,6 +6,7 @@
 #include "GameFramework/PlayerController.h"
 #include "AuraPlayerController.generated.h"
 
+struct FInputActionValue;
 class UInputMappingContext;
 class UInputAction;
 
@@ -31,5 +32,5 @@ private:
 	UPROPERTY(EditAnywhere, Category="Input")
 	TObjectPtr<UInputAction> MoveAction;
 
-	void Move(const struct FInputActionValue& InputActionValue);
+	void Move(const FInputActionValue& InputActionValue);
 };
