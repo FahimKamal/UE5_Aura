@@ -11,6 +11,19 @@ AAuraPlayerController::AAuraPlayerController()
 	bReplicates = true;
 }
 
+void AAuraPlayerController::PlayerTick(float DeltaTime)
+{
+	Super::PlayerTick(DeltaTime);
+
+	CursorTrace();
+	
+}
+
+void AAuraPlayerController::CursorTrace()
+{
+	FHitResult CursorHit;
+}
+
 void AAuraPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
@@ -59,3 +72,5 @@ void AAuraPlayerController::Move(const struct FInputActionValue& InputActionValu
 
 	// (X=1210.000000,Y=1339.000000,Z=87.500100)
 }
+
+

@@ -9,30 +9,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd2cdad-3604-4b7a-b6d0-2eaf9b081815" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Input/IMC_AuraContext.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Input/IMC_AuraContext.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Content/Materials/Box.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Content/Materials/Box.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Content/Materials/HeaderBox.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Content/Materials/HeaderBox.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Content/Materials/Panel.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Content/Materials/Panel.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Content/Materials/SolidColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Content/Materials/SolidColor.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/Module.DarkerNodes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/Module.DarkerNodes.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/Module.DarkerNodes.cpp.sarif" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/Module.DarkerNodes.cpp.sarif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/Module.ElectronicNodes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/Module.ElectronicNodes.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/Module.ElectronicNodes.cpp.sarif" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/Module.ElectronicNodes.cpp.sarif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Character/AuraCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Character/AuraCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraEnemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraEnemy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Character/AuraEnemy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Character/AuraEnemy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Player/AuraPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Player/AuraPlayerController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +38,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://2" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/Engine/LocalPlayer.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h" root0="FORCE_HIGHLIGHTING" />
@@ -182,7 +162,7 @@
       <workItem from="1737374656683" duration="768000" />
       <workItem from="1737435694593" duration="8383000" />
       <workItem from="1737477688586" duration="52000" />
-      <workItem from="1737478213518" duration="1298000" />
+      <workItem from="1737478213518" duration="3342000" />
     </task>
     <servers />
   </component>
