@@ -108,6 +108,11 @@ void AAuraPlayerController::SetupInputComponent()
 	EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AAuraPlayerController::Move);
 }
 
+void AAuraPlayerController::OnRep_PlayerState()
+{
+	Super::OnRep_PlayerState();
+}
+
 void AAuraPlayerController::Move(const struct FInputActionValue& InputActionValue)
 {
 	const FVector2D InputAxisVector = InputActionValue.Get<FVector2D>();
