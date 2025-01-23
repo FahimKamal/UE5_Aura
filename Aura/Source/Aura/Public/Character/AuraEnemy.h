@@ -18,6 +18,7 @@ class AURA_API AAuraEnemy : public AAuraCharacterBase, public IEnemyInterface
 	GENERATED_BODY()
 
 public:
+	AAuraEnemy();
 	virtual void HighlightActor() override;
 	virtual void UnHighlightActor() override;
 
@@ -25,5 +26,5 @@ public:
 	bool bHighlighted = false;
 
 private:
-	void SetHighLightValues(bool bValue, USkeletalMeshComponent& MeshComponent);
+	static void SetHighLightValues(bool bValue, USkeletalMeshComponent& MeshComponent);
 };
