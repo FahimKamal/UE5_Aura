@@ -13,5 +13,12 @@ UCLASS()
 class AURA_API UAuraAttributeSet : public UAttributeSet
 {
 	GENERATED_BODY()
-	
+public:
+	UAuraAttributeSet();
+
+	UPROPERTY(ReplicatedUsing= OnRep_Health)
+	FGameplayAttributeData Health;
+
+	UFUNCTION()
+	void OnRep_Health(const FGameplayAttribute& OldHealth) const;
 };
