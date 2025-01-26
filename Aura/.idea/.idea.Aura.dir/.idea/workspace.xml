@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd2cdad-3604-4b7a-b6d0-2eaf9b081815" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aura.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Aura.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +35,23 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/Components/SkeletalMeshComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/Engine/LocalPlayer.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Private/Engine/ActorInstanceHandle.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Public/Subsystems/LocalPlayerSubsystem.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAttributeSet.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Private/Actor/AuraEffectActor.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Private/UI/Widget/AuraUserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Private/UI/WidgetController/AuraWidgetController.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAttributeSet.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Public/Actor/AuraEffectActor.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Aura/Public/UI/Widget/AuraUserWidget.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -165,7 +172,8 @@
       <workItem from="1737519539410" duration="12314000" />
       <workItem from="1737614918634" duration="10825000" />
       <workItem from="1737871585967" duration="9036000" />
-      <workItem from="1737907884618" duration="4116000" />
+      <workItem from="1737907884618" duration="4682000" />
+      <workItem from="1737917990983" duration="1122000" />
     </task>
     <servers />
   </component>
