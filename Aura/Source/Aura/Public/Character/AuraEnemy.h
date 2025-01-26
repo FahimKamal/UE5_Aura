@@ -19,12 +19,13 @@ class AURA_API AAuraEnemy : public AAuraCharacterBase, public IEnemyInterface
 
 public:
 	AAuraEnemy();
+	/** Enemy Interface */
 	virtual void HighlightActor() override;
 	virtual void UnHighlightActor() override;
-	virtual void BeginPlay() override;
+	/** end Enemy Interface */
 
-	UPROPERTY(BlueprintReadOnly)
-	bool bHighlighted = false;
+protected:
+	virtual void BeginPlay() override;
 
 private:
 	static void SetHighLightValues(bool bValue, USkeletalMeshComponent& MeshComponent);

@@ -13,18 +13,6 @@ AAuraCharacter::AAuraCharacter()
 	GetCharacterMovement()->RotationRate = FRotator(0, 400, 0);
 	GetCharacterMovement()->bConstrainToPlane = true;
 	GetCharacterMovement()->bSnapToPlaneAtStart = true;
-
-	/**
-	 * Set AbilitySystemComponent from player state.
-	 * Set AttrubuteSet from player state.
-	 */
-	//======================================================================
-	APlayerState* PlayerState = GetPlayerState();
-	MPlayerState = Cast<AAuraPlayerState>(PlayerState);
-
-	AbilitySystemComponent = MPlayerState->GetAbilitySystemComponent();
-	AttributeSet = MPlayerState->GetAttributeSet();
-	//=======================================================================
 	
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationRoll = false;
@@ -35,5 +23,22 @@ void AAuraCharacter::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
 
-	AbilitySystemComponent->InitAbilityActorInfo(MPlayerState, this);
+	// Init ability Actor info for the server
+	InitAbilityInfo();
+}
+
+void AAuraCharacter::OnRep_PlayerState()
+{
+	Super::OnRep_PlayerState();
+	// Init ability info for the client. 
+	InitAbilityInfo();
+}
+
+void AAuraCharacter::InitAbilityInfo()
+{
+	AAuraPlayerState* AuraPlayerState = GetPlayerState<AAuraPlayerState>();
+	check(AuraPlayerState);
+	AuraPlayerState->GetAbilitySystemComponent()->InitAbilityActorInfo(AuraPlayerState, this);
+	AbilitySystemComponent = AuraPlayerState->GetAbilitySystemComponent();
+	AttributeSet = AuraPlayerState->GetAttributeSet();
 }
