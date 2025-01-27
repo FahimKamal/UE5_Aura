@@ -10,16 +10,7 @@
     <list default="true" id="5fd2cdad-3604-4b7a-b6d0-2eaf9b081815" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/Module.DarkerNodes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/Module.DarkerNodes.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/Module.ElectronicNodes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/Module.ElectronicNodes.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +175,7 @@
       <workItem from="1737871585967" duration="9036000" />
       <workItem from="1737907884618" duration="4682000" />
       <workItem from="1737917990983" duration="1122000" />
-      <workItem from="1737964041869" duration="1802000" />
+      <workItem from="1737964041869" duration="4010000" />
     </task>
     <servers />
   </component>
