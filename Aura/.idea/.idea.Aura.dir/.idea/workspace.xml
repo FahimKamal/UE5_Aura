@@ -9,7 +9,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd2cdad-3604-4b7a-b6d0-2eaf9b081815" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aura.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Aura.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Binaries/Win64/UnrealEditor-DarkerNodes.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/Module.DarkerNodes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/Module.DarkerNodes.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/DarkerNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/DarkerNodes/UnrealEditor-DarkerNodes.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Binaries/Win64/UnrealEditor-ElectronicNodes.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/Module.ElectronicNodes.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/Module.ElectronicNodes.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.lib" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ElectronicNodes/Intermediate/Build/Win64/x64/UnrealEditor/Development/ElectronicNodes/UnrealEditor-ElectronicNodes.lib" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,22 +72,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Uproject.Aura.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Uproject.Aura.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Aura" type="Uproject" factoryName="rider.uproject">
       <configuration_1 setup="1">
@@ -174,6 +184,7 @@
       <workItem from="1737871585967" duration="9036000" />
       <workItem from="1737907884618" duration="4682000" />
       <workItem from="1737917990983" duration="1122000" />
+      <workItem from="1737964041869" duration="1802000" />
     </task>
     <servers />
   </component>
