@@ -85,8 +85,10 @@ void AAuraPlayerController::BeginPlay()
 	// Set EnhancedInputSubsystems for player inputs with UInputMappingContext.
 	check(AuraContext);
 	UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer());
-	check(Subsystem);
-	Subsystem-> AddMappingContext(AuraContext, 0);
+	if (Subsystem)
+	{
+		Subsystem-> AddMappingContext(AuraContext, 0);
+	}
 
 	// Set mouse behaviour in game and UI.
 	bShowMouseCursor = true;
