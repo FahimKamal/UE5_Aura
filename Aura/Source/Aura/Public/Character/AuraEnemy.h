@@ -27,6 +27,8 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
+	virtual void InitAbilityActorInfo() override;
+
 private:
 	static void SetHighLightValues(bool bValue, USkeletalMeshComponent& MeshComponent);
 };
