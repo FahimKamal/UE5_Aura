@@ -81,6 +81,29 @@ public:
 	/** Called after a gameplay effect is executed, allowing final attribute modifications */
 	virtual void PostGameplayEffectExecute(const FGameplayEffectModCallbackData& Data) override;
 
+	/**Primary Attributes */
+	/** Strength attribute, replicated with OnRep_Strength */
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Strength, Category= "Primary Attritutes")
+	FGameplayAttributeData Strength;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, Strength);
+
+	/** Intelligence attribute, replicated with OnRep_Intelligence */
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Intelligence, Category= "Primary Attritutes")
+	FGameplayAttributeData Intelligence;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, Intelligence);
+
+	/** Resilience attribute, replicated with OnRep_Resilience */
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Resilience, Category= "Primary Attritutes")
+	FGameplayAttributeData Resilience;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, Resilience);
+
+	/** Vigor attribute, replicated with OnRep_Vigor */
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Vigor, Category= "Primary Attritutes")
+	FGameplayAttributeData Vigor;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, Vigor);
+
+	
+	/** Vital Attributes */
 	/** Health attribute, replicated with OnRep_Health */
 	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Health, Category = "Vital Attributes")
 	FGameplayAttributeData Health;
@@ -117,7 +140,29 @@ public:
 	UFUNCTION()
 	void OnRep_MaxMana(const FGameplayAttributeData& OldMaxMana) const;
 
+	/** Replication notification function for Strength */
+	UFUNCTION()
+	void OnRep_Strength(const FGameplayAttributeData& OldStrength) const;
+
+	/** Replication notification function for Intelligence */
+	UFUNCTION()
+	void OnRep_Intelligence(const FGameplayAttributeData& OldIntelligence) const;
+
+	/** Replication notification function for Resilience */
+	UFUNCTION()
+	void OnRep_Resilience(const FGameplayAttributeData& OldResilience) const;
+
+	/** Replication notification function for Vigor */
+	UFUNCTION()
+	void OnRep_Vigor(const FGameplayAttributeData& OldVigor) const;
+
 private:
 	/** Extracts source and target properties from gameplay effect data */
 	static void SetEffectProperties(const FGameplayEffectModCallbackData& Data, FEffectProperties& PropsOut);
 };
+
+
+
+
+
+
