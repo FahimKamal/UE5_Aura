@@ -11,8 +11,7 @@
 /** Constructor: Initializes attribute values */
 UAuraAttributeSet::UAuraAttributeSet()
 {
-	InitHealth(10);
-	InitMana(50);
+	
 }
 
 /** Replicates the attributes over the network */
@@ -58,9 +57,6 @@ void UAuraAttributeSet::PreAttributeChange(const FGameplayAttribute& Attribute, 
 		NewValue = FMath::Clamp(NewValue, 0.0f, GetMaxMana());
 	}
 }
-
-
-
 
 /** Extracts effect properties such as source and target details */
 void UAuraAttributeSet::SetEffectProperties(const FGameplayEffectModCallbackData& Data,
