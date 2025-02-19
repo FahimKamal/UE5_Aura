@@ -58,6 +58,11 @@ struct FEffectProperties
 	ACharacter* TargetCharacter = nullptr;  /**< Character associated with the target */
 };
 
+// typedef TBaseStaticDelegateInstance<FGameplayAttribute(), FDefaultDelegateUserPolicy>::FFuncPtr FAttributeFuncPtr;
+template<class T>
+using TStaticFuncPtr = typename TBaseStaticDelegateInstance<T, FDefaultDelegateUserPolicy>::FFuncPtr;
+
+
 /**
  * UAuraAttributeSet
  * 
@@ -81,6 +86,9 @@ public:
 	/** Called after a gameplay effect is executed, allowing final attribute modifications */
 	virtual void PostGameplayEffectExecute(const FGameplayEffectModCallbackData& Data) override;
 
+
+	TMap<FGameplayTag, TStaticFuncPtr<FGameplayAttribute()>> TagToAttributes;
+	
 	/**
 	 *Primary Attributes
 	 */
