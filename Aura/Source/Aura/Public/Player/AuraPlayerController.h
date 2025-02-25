@@ -7,6 +7,7 @@
 #include "GameFramework/PlayerController.h"
 #include "AuraPlayerController.generated.h"
 
+class UAuraAbilitySystemComponent;
 class UAuraInputConfig;
 struct FInputActionValue;
 class UInputMappingContext;
@@ -43,12 +44,17 @@ private:
 	IEnemyInterface* LastActor;
 	IEnemyInterface* ThisActor;
 
-	static void AbilityInputTagPressed(FGameplayTag InputTag);
-	static void AbilityInputTagReleased(FGameplayTag InputTag);
-	static void AbilityInputTagHeld(FGameplayTag InputTag);
+	void AbilityInputTagPressed(FGameplayTag InputTag);
+	void AbilityInputTagReleased(FGameplayTag InputTag);
+	void AbilityInputTagHeld(FGameplayTag InputTag);
 
 	UPROPERTY(EditDefaultsOnly, Category="Input")
 	TObjectPtr<UAuraInputConfig> InputConfig;
+
+	UPROPERTY()
+	TObjectPtr<UAuraAbilitySystemComponent> AuraAbilitySystemComponent;
+
+	UAuraAbilitySystemComponent* GetASC();
 };
 
 
