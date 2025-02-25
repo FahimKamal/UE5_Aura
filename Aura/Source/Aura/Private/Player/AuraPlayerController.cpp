@@ -6,6 +6,8 @@
 #include "AbilitySystemBlueprintLibrary.h"
 #include "AuraGameplayTags.h"
 #include "EnhancedInputSubsystems.h"
+#include "NavigationPath.h"
+#include "NavigationSystem.h"
 #include "AbilitySystem/AuraAbilitySystemComponent.h"
 #include "Components/SplineComponent.h"
 #include "Input/AuraInputComponent.h"
@@ -98,8 +100,42 @@ void AAuraPlayerController::AbilityInputTagPressed(const FGameplayTag InputTag)
 
 void AAuraPlayerController::AbilityInputTagReleased(const FGameplayTag InputTag)
 {
-	if (GetASC()) return;
-	GetASC()->AbilityInputTagHeld(InputTag);
+	// Not left mouse button click. 
+	if (!InputTag.MatchesTagExact(FAuraGameplayTags::Get().InputTag_LMB))
+	{
+		if (GetASC())
+		{
+			GetASC()->AbilityInputTagReleased(InputTag);
+		}
+		return;
+	}
+	// Mouse left button click on enemy. 
+	if (bTargeting)
+	{
+		if (GetASC())
+		{
+			GetASC()->AbilityInputTagReleased(InputTag);
+		}
+	}
+	else
+	{
+		APawn* ControlledPawn = GetPawn();
+		if (FollowTime <= ShortPressThreshold && ControlledPawn)
+		{
+			if (UNavigationPath* NavPath = UNavigationSystemV1::FindPathToLocationSynchronously(this, ControlledPawn->GetActorLocation(), CachedDestination))
+			{
+				Spline->ClearSplinePoints();
+				for (auto& PointLoc : NavPath->PathPoints)
+				{
+					Spline->AddSplinePoint(PointLoc, ESplineCoordinateSpace::World);
+					DrawDebugSphere(GetWorld(), PointLoc, 8.0f, 8,FColor::Green, false, 5.0f);
+				}
+				bAutoRunning = true;
+			}
+		}
+		FollowTime = 0.0f;
+		bTargeting = false;
+	}
 }
 
 void AAuraPlayerController::AbilityInputTagHeld(const FGameplayTag InputTag)
@@ -114,7 +150,7 @@ void AAuraPlayerController::AbilityInputTagHeld(const FGameplayTag InputTag)
 		return;
 	}
 
-	// Mouse lft button click. 
+	// Mouse left button click on enemy. 
 	if (bTargeting)
 	{
 		if (GetASC())
@@ -122,7 +158,7 @@ void AAuraPlayerController::AbilityInputTagHeld(const FGameplayTag InputTag)
 			GetASC()->AbilityInputTagHeld(InputTag);
 		}
 	}
-	else // Click to move. 
+	else // Click and hold to move. 
 	{
 		FollowTime += GetWorld()->GetDeltaSeconds();
 
